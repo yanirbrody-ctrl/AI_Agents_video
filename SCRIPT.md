@@ -14,7 +14,7 @@
 | 4 | Running It Backwards | The Fourier Transform: complex wave in, its sines out | 0:36 - 0:50 |
 | 5 | The Spectrum | Frequency view (bars) and takeaway | 0:50 - 1:00 |
 
-*(Scenes 1-2 are drafted. Scenes 3-5 are placeholders until approved.)*
+*(Scenes 1-3 are drafted. Scenes 4-5 are placeholders until approved.)*
 
 ---
 
@@ -52,5 +52,24 @@
 > Let's start with the simplest wave there is: the sine wave. Smooth, and repeating forever. Just two things describe it: how fast it wiggles, its frequency, and how tall it rises, its amplitude.
 
 **Audio file:** `public/audio/scene2.wav` (generated, 12.16 s, 24 kHz, Kokoro `af_heart`). Scene should run ~12.5 s.
+
+---
+
+## Scene 3: Adding Sines (0:22 - ~0:36)
+
+**Purpose:** Show that stacking a few simple sines builds a complex wave, so the viewer sees the messy wave from Scene 1 is just a sum.
+
+### Visual Direction
+- **0.0 s:** Continues from Scene 2. The single cyan sine (with its labels faded out) slides up to the upper third of the screen. Title stays at top.
+- **1.0 s - 3.0 s:** A second sine, a faster, smaller violet wave, draws itself in the middle band. A faint "+" sign sits between the two waves.
+- **3.0 s - 5.0 s:** A third sine, a slow, tall green wave, draws itself in the lower band, with a second "+" sign. All three keep scrolling in sync.
+- **5.0 s - 9.0 s:** On "add them together": the three waves slide and merge down into one bottom-center orange wave, point by point (vertical dotted guide lines show the heights adding up at a few moments). It becomes visibly lumpy and irregular.
+- **9.0 s - 11.5 s:** The orange wave fills the center and the three sines fade to ghost outlines behind it. Label "3 sines = 1 complex wave" fades in below.
+- **11.5 s - 13.5 s:** The orange wave morphs smoothly into the jagged shape from Scene 1 (a few more faint sines briefly overlap), a visual echo of the hook. Hold into Scene 4.
+
+### Narration
+> Now, take a few of them, each with its own frequency and height, and simply add them together. The result is a lumpy, complicated wave, just like the tangled one we started with.
+
+**Audio file:** `public/audio/scene3.wav` (generated, 10.94 s, 24 kHz, Kokoro `af_heart`). Scene should run ~13.5 s so the morph-back beat holds ~2.5 s after the voice ends.
 
 ---
