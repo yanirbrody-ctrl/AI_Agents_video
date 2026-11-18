@@ -12,9 +12,9 @@
 | 2 | One Simple Sine | Define the building block: a sine wave has frequency and amplitude | 0:10 - 0:22 |
 | 3 | Adding Sines | Stacking a few sines builds a complex wave | 0:22 - 0:36 |
 | 4 | Running It Backwards | The Fourier Transform: complex wave in, its sines out | 0:36 - 0:50 |
-| 5 | The Spectrum | Frequency view (bars) and takeaway | 0:50 - 1:00 |
+| 5 | The Spectrum | Frequency view (bars) and takeaway | 0:50 - 1:02 |
 
-*(Scenes 1-4 are drafted. Scene 5 is a placeholder until approved.)*
+*(All five scenes are drafted. Total runtime is about 62 s.)*
 
 ---
 
@@ -90,5 +90,24 @@
 > Here's the magic. The Fourier Transform runs this process backwards. Give it any complicated wave, and it tells you exactly which sine waves, at which frequencies and heights, were added together to make it.
 
 **Audio file:** `public/audio/scene4.wav` (generated, 12.44 s, 24 kHz, Kokoro `af_heart`). Scene should run ~14 s so the closing label holds ~1.5 s after the voice ends.
+
+---
+
+## Scene 5: The Spectrum (0:50 - ~1:02)
+
+**Purpose:** Land the takeaway: the sines' frequencies and heights form a simple spectrum, and any signal can be broken down this way.
+
+### Visual Direction
+- **0.0 s:** Continues from Scene 4. The three scrolling sines (cyan, violet, green) sit in stacked bands. Title stays at top.
+- **0.5 s - 4.0 s:** On "Those frequencies and heights make up the spectrum": the sine bands slide to the left third and shrink. On the right, a clean axis appears with x-axis label "frequency" and y-axis label "height".
+- **4.0 s - 7.0 s:** On "a simple bar chart of the waves hiding inside": three vertical bars grow upward one at a time, colored cyan, violet and green to match their sines. Bar position = frequency (slow, medium, fast), bar height = the sine's amplitude. A thin dotted line links each sine to its bar.
+- **7.0 s - 9.0 s:** On "Any signal, any sound": brief quick cuts of three small icons (microphone, guitar, heart-rate pulse) pass by from Scene 1, each flashing its own different bar pattern.
+- **9.0 s - 11.0 s:** On "That's the Fourier Transform": the sines and icons fade out, and the bar chart slides to center. The title "The Fourier Transform" scales up slightly with a soft glow.
+- **11.0 s - 12.0 s:** Final tagline fades in under the title: "Any wave = a sum of simple sines." Hold, then fade to black.
+
+### Narration
+> Those frequencies and heights make up the spectrum, a simple bar chart of the waves hiding inside. Any signal, any sound, broken into simple sines. That's the Fourier Transform.
+
+**Audio file:** `public/audio/scene5.wav` (generated, 11.24 s, 24 kHz, Kokoro `af_heart`). Scene should run ~12 s. Total runtime across all scenes is about 62 s (10 + 12.5 + 13.5 + 14 + 12).
 
 ---
