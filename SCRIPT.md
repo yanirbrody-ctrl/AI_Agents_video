@@ -14,7 +14,7 @@
 | 4 | Running It Backwards | The Fourier Transform: complex wave in, its sines out | 0:36 - 0:50 |
 | 5 | The Spectrum | Frequency view (bars) and takeaway | 0:50 - 1:00 |
 
-*(Scenes 1-3 are drafted. Scenes 4-5 are placeholders until approved.)*
+*(Scenes 1-4 are drafted. Scene 5 is a placeholder until approved.)*
 
 ---
 
@@ -71,5 +71,24 @@
 > Now, take a few of them, each with its own frequency and height, and simply add them together. The result is a lumpy, complicated wave, just like the tangled one we started with.
 
 **Audio file:** `public/audio/scene3.wav` (generated, 10.94 s, 24 kHz, Kokoro `af_heart`). Scene should run ~13.5 s so the morph-back beat holds ~2.5 s after the voice ends.
+
+---
+
+## Scene 4: Running It Backwards (0:36 - ~0:50)
+
+**Purpose:** Deliver the core idea: the Fourier Transform reverses the addition from Scene 3, taking any complex wave and revealing the sine waves inside it.
+
+### Visual Direction
+- **0.0 s:** Continues from Scene 3. The jagged orange wave sits in the center, with the title at top.
+- **0.5 s - 2.5 s:** On "Here's the magic": a glowing box labelled "Fourier Transform" slides in from the right and sits over the center-right of the wave, like a machine. Brief sparkle on the box edges.
+- **2.5 s - 5.5 s:** On "runs this process backwards": a large curved arrow loops from the right side back to the left, tracing the Scene 3 merge in reverse. A small "+" icon fades out and a "-" style split icon fades in on the box.
+- **5.5 s - 8.0 s:** On "Give it any complicated wave": the orange wave flows into the left side of the box, compressing into a thin stream.
+- **8.0 s - 12.0 s:** On "tells you exactly which sine waves, at which frequencies and heights": the stream exits the right side and fans out into three separate sines, cyan, violet and green, stacked in bands. Each wave gets a small tag as it appears: frequency and height (e.g. "slow, tall", "fast, small").
+- **12.0 s - 14.0 s:** The box fades out. The three sines keep scrolling, with a final label "any wave = a sum of sines". Hold into Scene 5.
+
+### Narration
+> Here's the magic. The Fourier Transform runs this process backwards. Give it any complicated wave, and it tells you exactly which sine waves, at which frequencies and heights, were added together to make it.
+
+**Audio file:** `public/audio/scene4.wav` (generated, 12.44 s, 24 kHz, Kokoro `af_heart`). Scene should run ~14 s so the closing label holds ~1.5 s after the voice ends.
 
 ---
