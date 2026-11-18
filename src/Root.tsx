@@ -9,16 +9,17 @@ import {Scene5, SCENE5_SECONDS} from "./Scene5";
 const FPS = 30;
 const DURATION_SECONDS = 5;
 const frames = (seconds: number) => Math.round(FPS * seconds);
-// Scenes 1-4 played back to back (Scene 5 not included yet).
+// Scenes 1-5 played back to back.
 const FullVideo = () => (
   <Series>
     <Series.Sequence durationInFrames={frames(SCENE1_SECONDS)}><Scene1 /></Series.Sequence>
     <Series.Sequence durationInFrames={frames(SCENE2_SECONDS)}><Scene2 /></Series.Sequence>
     <Series.Sequence durationInFrames={frames(SCENE3_SECONDS)}><Scene3 /></Series.Sequence>
     <Series.Sequence durationInFrames={frames(SCENE4_SECONDS)}><Scene4 /></Series.Sequence>
+    <Series.Sequence durationInFrames={frames(SCENE5_SECONDS)}><Scene5 /></Series.Sequence>
   </Series>
 );
-const FULL_FRAMES = frames(SCENE1_SECONDS) + frames(SCENE2_SECONDS) + frames(SCENE3_SECONDS) + frames(SCENE4_SECONDS);
+const FULL_FRAMES = frames(SCENE1_SECONDS) + frames(SCENE2_SECONDS) + frames(SCENE3_SECONDS) + frames(SCENE4_SECONDS) + frames(SCENE5_SECONDS);
 export const Root = () => (
   <>
     <Composition id="FullVideo" component={FullVideo} durationInFrames={FULL_FRAMES} fps={FPS} width={1280} height={720} />
