@@ -14,7 +14,7 @@
 | 4 | Running It Backwards | The Fourier Transform: complex wave in, its sines out | 0:36 - 0:50 |
 | 5 | The Spectrum | Frequency view (bars) and takeaway | 0:50 - 1:00 |
 
-*(Only Scene 1 is drafted so far. Scenes 2-5 are placeholders until approved.)*
+*(Scenes 1-2 are drafted. Scenes 3-5 are placeholders until approved.)*
 
 ---
 
@@ -33,5 +33,24 @@
 > Every sound around you, a voice, a guitar chord, even a heartbeat, is a messy, tangled wave. But hidden inside it is something beautifully simple.
 
 **Audio file:** `public/audio/scene1.wav` (generated, 9.07 s, 24 kHz, Kokoro `af_heart`). Scene should run ~10 s so the final "What is it made of?" beat holds ~1 s after the voice ends.
+
+---
+
+## Scene 2: One Simple Sine (0:10 - ~0:22)
+
+**Purpose:** Introduce the building block of the whole video: the sine wave, and the two numbers that fully describe it.
+
+### Visual Direction
+- **0.0 s:** Cross-fade from Scene 1. The messy orange wave shrinks and fades out; the dark background stays. The title "The Fourier Transform" remains at top.
+- **0.5 s - 3.5 s:** A single clean cyan sine wave draws itself across the center and keeps scrolling smoothly. Label "sine wave" fades in below it as the narration says it.
+- **3.5 s - 5.0 s:** The wave continues past both screen edges, with faint dotted extensions and a small "∞" mark, to show it repeats forever.
+- **5.0 s - 8.5 s:** On "how fast it wiggles, its frequency": the wave speeds up, then slows down, and one full cycle is highlighted with a bracket. Label "frequency" appears under the bracket.
+- **8.5 s - 12.0 s:** On "how tall it rises, its amplitude": a vertical double-arrow measures the peak height, and the wave grows taller, then shorter. Label "amplitude" appears beside the arrow.
+- **12.0 s - 12.5 s:** Both labels stay. The wave settles to a medium size and speed. Hold into Scene 3.
+
+### Narration
+> Let's start with the simplest wave there is: the sine wave. Smooth, and repeating forever. Just two things describe it: how fast it wiggles, its frequency, and how tall it rises, its amplitude.
+
+**Audio file:** `public/audio/scene2.wav` (generated, 12.16 s, 24 kHz, Kokoro `af_heart`). Scene should run ~12.5 s.
 
 ---
